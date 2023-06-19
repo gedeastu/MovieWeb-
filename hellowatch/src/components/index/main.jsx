@@ -1,9 +1,10 @@
 import './main.css';
 import logo from './img/hellowatch.svg'
+import theBatman from './img/batman.jpg';
 function Main () {
   return (
     <>
-    <div id="header" className=''>
+    <div id="header" className='max-w-full'>
       <div id="navbar" className='grid grid-cols-2 md:grid-cols-3 p-3'>
         <div id="logoAndMenu" className='flex gap-2 items-center'>
           <div id="menu" className=''>
@@ -33,27 +34,51 @@ function Main () {
         </div>
         <div id="utilities"></div>
       </div>
-      <div id="default-carousel" class="relative w-96 mx-auto" data-carousel="slide">
-          <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              
+      <div id="default-carousel" class="relative w-screen mx-auto" data-carousel="slide">
+          <div class="relative h-96 overflow-hidden rounded-lg md:h-96">
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                <div id="pict1" class="bg-cover bg-center w-full h-full relative">
+                  <div class="absolute bg-gradient-to-b from-[#080B10] to-black/0 top-0 h-full w-full"></div>
+                  <div id="content">
+                  </div>
+                  <div class="absolute bg-gradient-to-t from-[#080B10] to-black/0 top-0 h-full w-full"></div>
+                </div>
               </div>
               
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <img src="/docs/images/carousel/carousel-2.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                <div id="pict2" class="bg-cover bg-center w-full h-full relative">
+                    <div class="absolute bg-gradient-to-b from-[#080B10] to-black/0 top-0 h-full w-full"></div>
+                    <div id="content">
+                    </div>
+                    <div class="absolute bg-gradient-to-t from-[#080B10] to-black/0 top-0 h-full w-full"></div>
+                  </div>
               </div>
               
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+              <div id="pict3" class="bg-cover bg-center w-full h-full relative">
+                  <div class="absolute bg-gradient-to-b from-[#080B10] to-black/0 top-0 h-full w-full"></div>
+                  <div id="content">
+                  </div>
+                  <div class="absolute bg-gradient-to-t from-[#080B10] to-black/0 top-0 h-full w-full"></div>
+                </div>
               </div>
               
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <img src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+              <div id="pict4" class="bg-cover bg-center w-full h-full relative">
+                  <div class="absolute bg-gradient-to-b from-[#080B10] to-black/0 top-0 h-full w-full"></div>
+                  <div id="content">
+                  </div>
+                  <div class="absolute bg-gradient-to-t from-[#080B10] to-black/0 top-0 h-full w-full"></div>
+                </div>
               </div>
               
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <img src="/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+              <div id="pict5" class="bg-cover bg-center w-full h-full relative">
+                  <div class="absolute bg-gradient-to-b from-[#080B10] to-black/0 top-0 h-full w-full"></div>
+                  <div id="content">
+                  </div>
+                  <div class="absolute bg-gradient-to-t from-[#080B10] to-black/0 top-0 h-full w-full"></div>
+                </div>
               </div>
           </div>
       </div>
