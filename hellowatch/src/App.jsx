@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './components/index/main'
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 function App() {
   return (
@@ -9,10 +10,10 @@ function App() {
       </header>
       <main className='grid grid-cols-2'>
         <div id="content">
-
+          <Header/>
         </div>
         <aside>
-          
+
         </aside>
       </main>
       <footer>
