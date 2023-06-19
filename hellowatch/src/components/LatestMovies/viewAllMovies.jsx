@@ -1,10 +1,10 @@
-import './index.css';
+import './viewAllMovies.css';
 
-function Index () {
+function ViewAllMovies () {
   return (
     <>
     </>
   );
 }
 
-export default Index;
+export default ViewAllMovies;

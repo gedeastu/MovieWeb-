@@ -1,10 +1,10 @@
-import './index.css';
+import './viewAllRecent.css';
 
-function Index () {
+function ViewAllRecent () {
   return (
     <>
     </>
   );
 }
 
-export default Index;
+export default ViewAllRecent;

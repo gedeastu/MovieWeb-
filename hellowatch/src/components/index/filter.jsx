@@ -1,10 +1,10 @@
-import './index.css';
+import './filter.css';
 
-function Index () {
+function Filter () {
   return (
     <>
     </>
   );
 }
 
-export default Index;
+export default Filter;

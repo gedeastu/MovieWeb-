@@ -1,10 +1,10 @@
-import './index.css';
+import './LatestTV.css';
 
-function Index () {
+function LatestTV () {
   return (
     <>
     </>
   );
 }
 
-export default Index;
+export default LatestTV;

@@ -1,10 +1,10 @@
-import './index.css';
+import './recentlyViewed.css';
 
-function Index () {
+function RecentlyViewed () {
   return (
     <>
     </>
   );
 }
 
-export default Index;
+export default RecentlyViewed;
