@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
@@ -16,7 +17,9 @@ module.exports = {
   },
   plugins: [
     require("daisyui"),
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require('flowbite/plugin'),
+    require("tw-elements/dist/plugin.cjs")
   ],
 }
 
