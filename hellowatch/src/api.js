@@ -1,10 +1,2 @@
-import axios from "axios"
-export const getMovieList = async() =>{
-    const movie = await axios.get("")
-    return
-}
-
-export const searchMovie = async(value)=>{
-    const search = await axios.get(value)
-    return
-}
+const API_KEY = '8d6932610a9da8dfce5256f64405cd28';
+const BASE_URL = 'https://api.themoviedb.org/3'
