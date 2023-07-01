@@ -1,8 +1,10 @@
 import './App.css';
 import logo from './components/index/img/hellowatch.svg';
-import Main from './components/index/main';
-import TvShow from './components/recommend/tvShows';
-import Trending from './components/recommend/trending';
+import Main from './pages/mainPage';
+import TvShow from './pages/tvPage';
+import Trending from './pages/trendingPage';
+import Weeks from './components/mostViewed/week'
+import Months from './components/mostViewed/month'
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 function App() {
   const HideShow = () => {
@@ -372,6 +374,7 @@ function App() {
           </form>
     </dialog>
     {/* END OF HEADER */}
+    
       <Router>
         <Routes>
           <Route path='/' element={<Main/>}/>
@@ -379,6 +382,14 @@ function App() {
           <Route path='/Trending' element={<Trending/>}/>
         </Routes>
       </Router>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Main/>}/>
+          <Route path='/weeks' element={<Weeks/>}/>
+          <Route path='/months' element={<Months/>} />
+        </Routes>
+      </Router>
+    
       <footer>
 
       </footer>

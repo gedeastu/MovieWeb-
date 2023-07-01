@@ -386,8 +386,8 @@ function Main () {
         <h1 className='font-bold text-[#789cff] text-xl pb-2 md:pb-0'>Most Viewed</h1>
         <ul className='flex items-center gap-2'>
           <button className='text-sm font-medium bg-[#704DB9] text-white p-1.5 rounded-lg'>Days</button>
-          <button className='text-sm'>Weeks</button>
-          <button className='text-sm'>Years</button>
+          <button onClick={()=>navigate('/weeks')} className='text-sm'>Weeks</button>
+          <button onClick={()=>navigate('/months')} className='text-sm'>Months</button>
         </ul>
         </div>
         <div id='content' className='my-5'>
